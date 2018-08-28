@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Deactivate
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -41,6 +41,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemsbarcodesbarcodeidreferrerreferrerid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemsbarcodesbarcodeidreferrerreferrerid-delete-openapi.md
+- name: plentymarkets REST-API - Deactivate a referrer account
+  x-api-slug: restitemssales-pricesidaccountsaccounttypeaccountid-delete
+  description: Deactivates a referrer account for a sales price.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemssales-pricesidaccountsaccounttypeaccountid-delete-openapi.md
 - name: plentymarkets REST-API - Deactivate a country
   x-api-slug: restitemssales-pricesidcountriescountryid-delete
   description: Deactivates a country for a sales price.
@@ -53,6 +63,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemssales-pricesidcountriescountryid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemssales-pricesidcountriescountryid-delete-openapi.md
+- name: plentymarkets REST-API - Deactivate a currency
+  x-api-slug: restitemssales-pricesidcurrenciescurrency-delete
+  description: Deactivate a currency for a sales price. The ID of the sales price
+    and the ISO code of the currency must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemssales-pricesidcurrenciescurrency-delete-openapi.md
+- name: plentymarkets REST-API - Deactivate a client (store)
+  x-api-slug: restitemssales-pricesidonline-storeswebstoreid-delete
+  description: Deactivates a client (store) for a sales price. The ID of the sales
+    price and the ID of the client (store) must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/plentymarkets/restitemssales-pricesidonline-storeswebstoreid-delete-openapi.md
 - name: plentymarkets REST-API - Deactivate shipping profiles of an item
   x-api-slug: restitemsitemiditem-shipping-profiles-delete
   description: Deactivates all shipping profiles of an item. The ID of the item must

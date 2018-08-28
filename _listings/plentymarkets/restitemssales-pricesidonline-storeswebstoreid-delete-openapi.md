@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Plentymarkets
-x-complete: 1
+x-complete: 0
 info:
-  title: plentymarkets REST-API
-  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  title: Plentymarkets Deactivate a client (store)
+  description: Deactivates a client (store) for a sales price. The ID of the sales
+    price and the ID of the client (store) must be specified.
   contact:
     name: plentymarkets
     url: https://forum.plentymarkets.com/c/rest-api
@@ -124,41 +126,17 @@ paths:
       - Deactivate
       - Client
       - (store)
-  /rest/items/{itemId}/item_shipping_profiles:
-    delete:
-      summary: Deactivate shipping profiles of an item
-      description: Deactivates all shipping profiles of an item. The ID of the item
-        must be specified.
-      operationId: deleteRestItemsItemItemShippingProfiles
-      x-api-path-slug: restitemsitemiditem-shipping-profiles-delete
-      parameters:
-      - in: path
-        name: itemId
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deactivate
-      - Shipping
-      - Profiles
-      - Of
-      - Item
-  /rest/items/{itemId}/item_shipping_profiles/{id}:
-    delete:
-      summary: Deactivate a shipping profile
-      description: Unlinks a shipping profile from the item. The ID of the item must
-        be specified.
-      operationId: deleteRestItemsItemItemShippingProfiles
-      x-api-path-slug: restitemsitemiditem-shipping-profilesid-delete
-      parameters:
-      - in: path
-        name: id
-      - in: path
-        name: itemId
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deactivate
-      - Shipping
-      - Profile
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

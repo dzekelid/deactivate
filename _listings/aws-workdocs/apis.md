@@ -19,11 +19,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Deactivate
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/aws-workdocs/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS WorkDocs API - Deactivate User
+  x-api-slug: actiondeactivateuser-get
+  description: Deactivates the specified user, which revokes the user's access to
+    Amazon WorkDocs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: :///
+  tags: Amazon Web Services, Storage, Documents, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/aws-workdocs/actiondeactivateuser-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.waf.api.gallery.streamdata.io

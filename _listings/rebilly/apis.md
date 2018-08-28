@@ -6,11 +6,41 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Deactivate
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Deactivate a Bank Account
+  x-api-slug: bankaccountsiddeactivation-post
+  description: Deactivate a Bank Account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/rebilly/bankaccountsiddeactivation-post-openapi.md
+- name: Rebilly - Deactivate a Payment Card
+  x-api-slug: paymentcardsiddeactivation-post
+  description: Deactivate a Payment Card
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/rebilly/paymentcardsiddeactivation-post-openapi.md
+- name: Rebilly - Deactivate a PayPal Account
+  x-api-slug: paypalaccountsiddeactivation-post
+  description: Deactivate a PayPal Account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/deactivate/master/_listings/rebilly/paypalaccountsiddeactivation-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

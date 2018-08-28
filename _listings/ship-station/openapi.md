@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Ship Station
 x-complete: 1
@@ -39,4 +38,3 @@ paths:
       tags:
       - Deactivate
       - Store
----
